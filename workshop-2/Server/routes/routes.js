@@ -3,7 +3,7 @@ const route=express.Router();
 const player =require("../models/playerScheme")
 const team =require("../models/teamSchema")
 
-//create player
+//create player//2
 route.post('/player', async (req, res) => {
   try {
     let tf = await team.model.findById(req.body.team);

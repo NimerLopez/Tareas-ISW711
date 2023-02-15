@@ -4,7 +4,7 @@ const dotv = require('dotenv').config();
 const userRoute=require('./routes/routes') 
 const app = express();
 //npm init
-//npm i express mongoose nodemon dotenv
+//npm i express mongoose nodemon dotenv//2
 
 app.use(express.json());
 

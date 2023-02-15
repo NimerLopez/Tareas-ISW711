@@ -6,6 +6,6 @@ const Player = new Schema({
   name: { type: String },
   lastname:{ type: String },
   age:{ type: Number },
-});
+});//2
 
 module.exports = mongoose.model('players', Player);
